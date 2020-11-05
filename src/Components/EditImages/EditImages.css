@@ -1,0 +1,28 @@
+.editimageboby{
+    text-align: center;
+}
+.imagediv img{
+    width: 500px;
+    margin-top: 30px;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+  }
+  .rect {
+    cursor: move;
+    user-select: none;
+  }
